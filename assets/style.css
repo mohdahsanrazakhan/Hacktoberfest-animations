@@ -64,8 +64,16 @@ select {
 	border: 1px solid #ccc;
 	height: 34px;
 	-webkit-appearance: none;
-	background: url(arrow-down.png) no-repeat right #fff;
 	background-position-x: 97%;
+	background-color: rgba(124, 54, 62, 0.4);
+	border-color: rgb(124, 54, 62);
+	border-radius: 5px;
+	color: #eabeb6;
+	outline: none;
+}
+
+#animationSelect > option {
+	color: #000000;
 }
 
 #detail_elements p {
@@ -123,6 +131,13 @@ select {
 	max-height: 20px;
 	transition: transform 0.3s ease-in-out;
 }
+
+/* #animationSelect {
+	background-color: rgba(124, 54, 62, 0.3);
+	border-color: RGB(124 54 62);
+	border-radius: 5px;
+	color: #eabeb6;
+} */
 
 @media only screen and (max-width: 835px) {
 	.title {
